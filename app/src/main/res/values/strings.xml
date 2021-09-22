@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iPerpus</string>
+    <string name="book_name">Judul Buku</string>
+    <string name="detail">Detail</string>
+</resources>
