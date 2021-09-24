@@ -102,6 +102,56 @@ object BooksData {
         R.drawable.sma_fisika,
         R.drawable.one_piece_96)
 
+    private val bookSpecification = arrayOf("Format \t: \tSoft Cover\n" +
+            "ISBN \t: \t6020332950\n" +
+            "ISBN13 \t: \t9786020332956\n" +
+            "Tanggal Terbit \t: \t9 Agustus 2016\n" +
+            "Bahasa \t: \tIndonesia\n" +
+            "Penerbit \t: \tGramedia Pustaka Utama\t\n" +
+            "Halaman \t: \t440\n" +
+            "Dimensi \t: \t135 mm x 200 mm ",
+        "ISBN : 9786020386201\n" +
+                "Penulis : J.K. Rowling\n" +
+                "Penerbit : Gramedia Pustaka Utama \n" +
+                "Tanggal terbit : September - 2018\n" +
+                "Jumlah Halaman : 384\n" +
+                "Berat Buku : 350 gr\n" +
+                "Jenis Cover : Soft Cover\n" +
+                "Kategori :Fantasi",
+        "Penerbit : Gramedia Pustaka Utama\n" +
+                "Kategori : Novel\n" +
+                "Penulis : Tere Liye\n" +
+                "Ukuran : 14 cm x 21 cm\n" +
+                "Berat : 400 gram\n" +
+                "Tebal : 320 hlm\n" +
+                "Cover : Soft Cover\n" +
+                "ISBN : 9786020324784",
+        "Penulis : Tere Liye\n" +
+                "Ukuran : 14 x 20 cm\n" +
+                "ISBN : 978-623-97262-0-1\n" +
+                "Penerbit Sabak Grip",
+        "Pengarang : Rinaldi Munir\n" +
+                "Penerbit : Informatika\n" +
+                "ISBN : 978-623-7131-37-3\n" +
+                "Tahun Terbit : 2020\n" +
+                "Tebal Buku : 548 halaman",
+        "ISBN : SCOOP220087\n" +
+                "Penerbit : Elex Media Komputindo\n" +
+                "Tebal Buku : 110 halaman",
+        "ISBN : SCOOP220091\n" +
+                "Penerbit : Elex Media Komputindo\n" +
+                "Tebal Buku : 86 halaman",
+        "Penulis : Tere Liye\n" +
+                "No. ISBN : 9786239554507\n" +
+                "Penerbit : Gramedia Pustaka Utama \n" +
+                "Tanggal terbit : Desember - 2020",
+        "ISBN : 9786232054905\n" +
+                "Penerbit : Yrama Widya\n" +
+                "Tebal Buku : 356 halaman",
+        "ISBN : 9786230026195\n" +
+                "Penerbit : Elex Media Komputindo\n" +
+                "Tebal Buku : 208 halaman")
+
     val listData: ArrayList<Book>
         get() {
             val list = arrayListOf<Book>()
@@ -110,6 +160,7 @@ object BooksData {
                 Book.name = bookNames[position]
                 Book.detail = bookDetails[position]
                 Book.photo = bookImages[position]
+                Book.specification = bookSpecification[position]
                 list.add(Book)
             }
             return list

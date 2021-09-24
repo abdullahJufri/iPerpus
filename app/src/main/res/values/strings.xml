@@ -2,4 +2,14 @@
     <string name="app_name">iPerpus</string>
     <string name="book_name">Judul Buku</string>
     <string name="detail">Detail</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="borrow">Pinjam</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="description">Deskripsi:</string>
+    <string name="book_title">judul buku</string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="biodata_name">Abdullah</string>
+    <string name="biodata_email1">p007r4019@dicoding.org</string>
+    <string name="biodata_email2">abdullah.dullah1616@Gmail.com</string>
+
 </resources>

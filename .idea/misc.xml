@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/drawable/ic_profile.xml" value="0.15" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/activity_about.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/activity_detail_book.xml" value="0.264" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/activity_main.xml" value="0.11979166666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/activity_splash_screen.xml" value="0.11018518518518519" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/item_row_book.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/layout/tes.xml" value="0.259375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/iPerpus2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15104166666666666" />
       </map>
     </option>
   </component>
